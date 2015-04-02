@@ -52,7 +52,7 @@ a {
 }
 /* Main Body Styles */
 #header {
-	margin-top: 50px;
+	margin: 20px 0px 15px 0px;
 	font-family: Open Sans, sans-serif;
 	text-align: center;
 	color: #454545;
@@ -67,6 +67,6 @@ a {
 	font-family: Source Sans Pro, serif;
 	font-size: 27px;
 	line-height: 200%;
-	margin: 20px;
+	margin: 0px 0px 20px 0px;
 	text-indent: 20px;
 }
