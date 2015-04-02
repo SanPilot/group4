@@ -1,29 +1,72 @@
-#header-main {
-    font-weight: bold;
-    margin-left: 14px;
-    margin-right: 8px;
-    font-size: 23px;
-    vertical-align: -2px;
-}
-#header-secondary {
-    font-size: 17px;
-}
-#header-main, #header-secondary, a {
-    font-family: Open Sans, sans-serif;
-    color: #CCCCCC;
-    text-decoration: none;
-}
 body {
-    margin: 0px;
+	margin: 0px;
+	background-color: #e5e5e5;
 }
+a {
+	text-decoration: none;
+}
+/* Navigation Bar Styles */
 #navigation {
-    background-color: #333333;
-    margin-top: 12px;
-    padding: 12px 0px 12px 50px;
+	padding: 10px 0px 10px 50px;
+	background-color: #FFFFFF;
+	overflow: hidden;
 }
 #logo a {
-    border: none;
+	border: none;
 }
 #logo {
-    vertical-align: -10px;
+	vertical-align: -16px;
+}
+#header-main {
+	font-weight: bold;
+	margin-left: 25px;
+	margin-right: 8px;
+	font-size: 23px;
+	vertical-align: -1px;
+}
+#header-secondary {
+	font-size: 17px;
+}
+#header-main, #header-secondary, #nav-main {
+	font-family: Open Sans, sans-serif;
+	color: #333333;
+	text-decoration: none;
+}
+#nav-main {
+	color: #535353;
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+}
+.navlink {
+	color: #535353;
+	transition: color 0.2s;;
+}
+.navlink:hover {
+	color: #0f0f0f;
+}
+.menuitem {
+	height: 100%;
+	display: inline-block;
+	padding: 12px 7px 12px 7px;
+}
+/* Main Body Styles */
+#header {
+	margin-top: 50px;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	color: #454545;
+	font-size: 60px;
+}
+#content {
+	margin: auto;
+	width: 70%;
+}
+.contentp {
+	color: #393939;
+	font-family: Source Sans Pro, serif;
+	font-size: 27px;
+	line-height: 200%;
+	margin: 20px;
+	text-indent: 20px;
 }
