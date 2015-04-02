@@ -15,7 +15,8 @@ a {
 	border: none;
 }
 #logo {
-	vertical-align: -16px;
+	margin-top: 6px;
+	vertical-align: -5px;
 }
 #header-main {
 	font-weight: bold;
