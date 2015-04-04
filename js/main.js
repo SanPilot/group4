@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	$("#supercurtain").css("opacity",0);
+	$("#supercurtain").css("opacity","0");
 });
