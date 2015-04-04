@@ -10,6 +10,7 @@ a {
 	padding: 10px 0px 10px 50px;
 	background-color: #FFFFFF;
 	overflow: hidden;
+	z-index: 9999;
 }
 #logo a {
 	border: none;
@@ -78,4 +79,12 @@ a {
 	font-family: Source Sans Pro, serif;
 	font-size: 27px;
 	text-indent: 20px;
+}
+#supercurtain {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 10000;
+	background-color: #e5e5e5;
+	transition: opacity 1s;
 }
