@@ -96,7 +96,20 @@ a {
 	background-color: #c9c9c9;
 }
 #resourcesinner {
-	with: 70%;
+	font-family: Source Sans Pro, serif;
+	line-height: 200%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 70%;
 	margin: auto;
-	color: #ffffff;
+	color: #464646;
+}
+#resourcesheader {
+	font-size: 27px;
+	color: #848484;
+}
+#citation {
+	font-size: 20px;
+	text-indent: -20px;
+	margin: 15px 0px 0px 20px;
 }
