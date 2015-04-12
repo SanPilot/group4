@@ -101,7 +101,7 @@ a {
 	font-family: Source Sans Pro, serif;
 	line-height: 200%;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 14px;
 	width: 70%;
 	margin: auto;
 	color: #464646;
@@ -113,7 +113,7 @@ a {
 #citation {
 	font-size: 20px;
 	text-indent: -20px;
-	margin: 15px 0px 0px 20px;
+	margin: 5px 0px 10px 20px;
 }
 #citation > a {
 	color: #464646;
