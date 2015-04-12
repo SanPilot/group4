@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).load(function() {
 	setTimeout(function() {
 		$("#supercurtain").css("opacity","0");
 		setTimeout(function() {

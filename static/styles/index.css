@@ -83,8 +83,10 @@ a {
 #supercurtain {
 	height: 100%;
 	width: 100%;
-	position: absolute;
-	z-index: 10000;
+	top:0;
+	left: 0;
+	position: fixed;
+	z-index: 999999;
 	background-color: #e5e5e5;
 	opacity: 1;
 	transition: opacity 1s;
@@ -112,4 +114,24 @@ a {
 	font-size: 20px;
 	text-indent: -20px;
 	margin: 15px 0px 0px 20px;
+}
+#citation > a {
+	color: #464646;
+	text-decoration: underline;
+}
+#slider {
+	margin: 0px;
+	height: 500px;
+}
+#sliderinner {
+	width: 1000px;
+	margin: 0px auto;
+}
+#sliderwrapper {
+	margin-top: 20px;
+	background-color: #c9c9c9;
+}
+.bx-caption > span {
+	font-family: Source Sans Pro, serif;
+	font-size: 50px;
 }
