@@ -65,7 +65,7 @@ a {
 	width: 70%;
 }
 .contentp {
-	color: #393939;
+	color: #505050;
 	font-family: Source Sans Pro, serif;
 	font-size: 27px;
 	line-height: 200%;
@@ -73,11 +73,10 @@ a {
 	text-indent: 20px;
 }
 .headerp {
-	margin: 20px 0px 10px 0px;
-	font-weight: bold;
-	color: #212121;
+	margin: 20px 0px 0px 0px;
+	color: #818181;
 	font-family: Source Sans Pro, serif;
-	font-size: 27px;
+	font-size: 22px;
 	text-indent: 20px;
 }
 #supercurtain {
@@ -106,16 +105,16 @@ a {
 	margin: auto;
 	color: #464646;
 }
-#resourcesheader {
+.resourcesheader {
 	font-size: 27px;
 	color: #848484;
 }
-#citation {
+.citation {
 	font-size: 20px;
 	text-indent: -20px;
 	margin: 5px 0px 10px 20px;
 }
-#citation > a {
+.citation > a {
 	color: #464646;
 	text-decoration: underline;
 }
