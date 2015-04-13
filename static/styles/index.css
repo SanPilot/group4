@@ -72,6 +72,10 @@ a {
 	margin: 0px 0px 20px 0px;
 	text-indent: 20px;
 }
+.contentp > a {
+	color: #505050;
+	text-decoration: underline;
+}
 .headerp {
 	margin: 20px 0px 0px 0px;
 	color: #818181;
@@ -133,4 +137,8 @@ a {
 .bx-caption > span {
 	font-family: Source Sans Pro, serif;
 	font-size: 50px;
+}
+.light {
+	font-size: 20px;
+	color: #818181;
 }
