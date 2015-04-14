@@ -1,9 +1,16 @@
-body {
+body, html {
 	margin: 0px;
+	padding: 0px;
+	height: 100%;
 	background-color: #e5e5e5;
 }
 a {
 	text-decoration: none;
+}
+#wrapper {
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
 }
 /* Navigation Bar Styles */
 #navigation {
@@ -60,6 +67,9 @@ a {
 	color: #454545;
 	font-size: 60px;
 }
+#mainbody {
+	flex: 10;
+}
 #content {
 	margin: auto;
 	width: 70%;
@@ -99,6 +109,7 @@ a {
 }
 #resources {
 	background-color: #c9c9c9;
+	bottom: 0px;
 }
 #resourcesinner {
 	font-family: Source Sans Pro, serif;
