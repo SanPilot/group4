@@ -2,6 +2,7 @@ function createPopup() {
 	$("body").prepend("<div id='movedwrapper'><div id='moved'><span id='movedheader'>Important Notice</span><br>Rabbitsaninvasivespecies.com has moved to rabbitsaninvasivespecies.cf (.com to .cf).<br> In the future, rabbitsaninvasivespecies.com will no longer work.<div id='movedinputs'><input type='checkbox' id='movedcheck'><label for='movedcheck' id='movedchecklabel'>Don't show me this again</label><button id='movedbtn'>Okay</button></div></div></div>");
 }
 $(document).ready(function() {
+	alert(document.referrer);
 	if(!getCookie("moved")) {
 		createPopup();
 	}
