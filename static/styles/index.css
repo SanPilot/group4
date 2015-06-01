@@ -4,6 +4,58 @@ body, html {
 	height: 100%;
 	background-color: #e5e5e5;
 }
+#movedwrapper {
+	background-color: rgba(0, 0, 0, 0.5) #EBEBEB;
+	position: absolute;
+	z-index: 999;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	transition: opacity 0.4s;
+}
+#moved {
+	width: 30%;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 22px;
+	background-color: #FFFFFF;
+	padding: 30px;
+	line-height: 150%;
+}
+#movedheader {
+	font-family: Open Sans, sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+}
+#movedinputs {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+#movedchecklabel {
+	color: #343434;
+	font-size: 19px;
+	padding-left: 5px;
+}
+#movedbtn {
+	border: none;
+	background-color: #333333;
+	color: #FFFFFF;
+	display: block;
+	margin-left: auto;
+	padding: 8px 11px;
+	font-family: Source Sans Pro, sans-serif;
+	font-weight: bold;
+	transition: background-color 0.2s;
+	outline: none;
+}
+#movedbtn:hover {
+	background-color: #151515;
+}
+#movedbtn:active {
+	background-color: #000000;
+}
 a {
 	text-decoration: none;
 }
@@ -17,7 +69,6 @@ a {
 	padding: 10px 0px 10px 50px;
 	background-color: #FFFFFF;
 	overflow: hidden;
-	z-index: 9999;
 }
 #logo a {
 	border: none;
